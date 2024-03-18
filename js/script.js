@@ -5,5 +5,7 @@
 // This file contains the JS functions for index.html
 
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!<p>";
+  document.getElementById("area-of-a-circle").innerHTML = "<p>Hi</p>";
+  var num = Number(x);
+  var product = (2 * Math.PI * Number(x))
 }
