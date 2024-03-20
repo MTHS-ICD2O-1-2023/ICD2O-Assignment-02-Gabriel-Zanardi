@@ -5,7 +5,10 @@
 // This file contains the JS functions for index.html
 
 function myButtonClicked() {
-  document.getElementById("area-of-a-circle").innerHTML = "<p>Hi</p>";
-  var num = Number(x);
-  var product = (2 * Math.PI * Number(x))
+  // input
+  let radiusNumber = document.getElementById("radius-number").value
+
+  // output
+  document.getElementById("area-of-a-cicle").innerHTML =
+    "The area of this circle is: " + (2 * Math.PI * radiusNumber) + "."
 }
