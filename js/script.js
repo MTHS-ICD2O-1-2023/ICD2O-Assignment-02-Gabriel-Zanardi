@@ -6,9 +6,13 @@
 
 function myButtonClicked() {
   // input
-  let radiusNumber = document.getElementById("radius-number").value
+  const radiusNumber = document.getElementById("radius-number").value
+
+  // process
+  const areaOfCircle = (2 * Math.PI * radiusNumber)
+  const roundedAnswer = areaOfCircle.toFixed(2)
 
   // output
   document.getElementById("area-of-a-cicle").innerHTML =
-    "The area of this circle is: " + (2 * Math.PI * radiusNumber) + "."
+    "The area of this circle is: " + roundedAnswer + " cm²."
 }
