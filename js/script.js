@@ -4,6 +4,8 @@
 // Created on: Mar 2024
 // This file contains the JS functions for index.html
 
+"use strict"
+
 function myButtonClicked() {
   // input
   const radiusNumber = document.getElementById("radius-number").value
